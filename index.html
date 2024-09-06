@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Maze Solver</h1>
+    <div id="maze-container">
+        <canvas id="maze"></canvas>
+    </div>
+    <div id="controls">
+        <button class="arrow-btn" id="up-btn">↑</button>
+        <button class="arrow-btn" id="left-btn">←</button>
+        <button class="arrow-btn" id="down-btn">↓</button>
+        <button class="arrow-btn" id="right-btn">→</button>
+    </div>
+    <div id="buttons">
+        <button id="solve-btn">Solve Maze</button>
+        <button id="reset-btn">Reset Maze</button>
+    </div>
+
+    <div id="win-popup" class="popup">
+        <div class="popup-content">
+            <span id="close-popup">&times;</span>
+            <h2>CONGRATULATIONS!</h2>
+            <p>You have solved the maze!</p>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
